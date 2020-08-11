@@ -80,7 +80,7 @@
       "class_year": 11,
       "percentage": 82,
       "course": "Rock Climbing",
-      "attending": true
+      "attending": false
     },
     {
       "id": 5974,
@@ -104,7 +104,7 @@
       "class_year": 11,
       "percentage": 70,
       "course": "Building an electric car",
-      "attending": false
+      "attending": true
     },
     {
       "id": 5997,
@@ -144,7 +144,7 @@
       "class_year": 11,
       "percentage": 97,
       "course": "Having a good time",
-      "attending": false
+      "attending": true
     },
     {
       "id": 6010,
@@ -168,7 +168,7 @@
       "class_year": 9,
       "percentage": 99,
       "course": "Building an electric car",
-      "attending": false
+      "attending": true
     },
     {
       "id": 6021,
@@ -248,7 +248,7 @@
       "class_year": 11,
       "percentage": 100,
       "course": "Building an electric car",
-      "attending": false
+      "attending": true
     },
     {
       "id": 5962,
@@ -696,7 +696,7 @@
       "class_year": 11,
       "percentage": 78,
       "course": "Building an electric car",
-      "attending": false
+      "attending": true
     },
     {
       "id": 5973,
@@ -736,7 +736,7 @@
       "class_year": 10,
       "percentage": 80,
       "course": "Building an electric car",
-      "attending": false
+      "attending": true
     },
     {
       "id": 5993,
@@ -792,7 +792,7 @@
       "class_year": 9,
       "percentage": 71,
       "course": "Building an electric car",
-      "attending": false
+      "attending": true
     },
     {
       "id": 6018,

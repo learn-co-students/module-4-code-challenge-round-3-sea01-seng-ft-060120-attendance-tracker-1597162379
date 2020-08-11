@@ -1,20 +1,20 @@
 import React from "react";
 
-const CourseSelector = props => {
+const CourseSelector = (props) => {
   return (
     <div className="sixteen wide column">
       <select
         className="ui dropdown"
-        onChange={() => console.log("CourseSelector handle change here!")}
+        onChange={props.handleCourseClick}
         defaultValue="select"
       >
         {/* you shouldn't need to touch these options below */}
         <option value="select" disabled>
           Select a course
         </option>
-        {props.courses.map(course => {
+        {props.courses.map((course) => {
           return (
-            <option key={course.id} className="item" value={course.id}>
+            <option key={course.id} className="item" value={course.name}>
               {course.name}
             </option>
           );
@@ -27,7 +27,7 @@ const CourseSelector = props => {
 // This makes it so, when no courses are passed
 // CourseDetails will still get courses, but it will be an empty array.
 CourseSelector.defaultProps = {
-  courses: []
+  courses: [],
 };
 
 export default CourseSelector;
